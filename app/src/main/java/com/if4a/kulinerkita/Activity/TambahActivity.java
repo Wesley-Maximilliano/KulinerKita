@@ -20,7 +20,7 @@ import retrofit2.Response;
 public class TambahActivity extends AppCompatActivity {
     private EditText etNama,etAsal, etDeskripsiSingkat;
     private Button btnSimpan;
-    String nama, asal, deskripsiSingkat;
+    private String nama, asal, deskripsiSingkat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
